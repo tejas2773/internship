@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My awesome portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="site-main-wrapper">
+        <button class="hamberger">
+            <img src="./images/hamberger.svg" alt="">
+        </button>
+
+        <div class="mobile-nav">
+            <button class="times"><img src="./images/times.svg" alt=""></button>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </div>
+        <header>
+            <div class="container">
+                <nav id="main-nav" class="flex items-center justify-between">
+                    <div class="left flex items-center">
+                        <div class="branding">
+                            <img src="./images/logo.svg" alt="">
+                        </div>
+                        <div>
+                            <a href="#">Home</a>
+                            <a href="#about">About</a>
+                            <a href="#services">Skills</a>
+                            <a href="#project">Projects</a>
+                            <a href="#contact">Contact</a>
+                        </div>
+                    </div>
+                </nav>
+                <div class="hero flex items-center justify-between">
+                    <div class="left flex-1 flex justify-center">
+                        <img src="./images/profile.png" alt="">
+                    </div>
+                    <div class="right flex-1">
+                        <h6>Tejas Balasaheb Raut</h6>
+                        <h1>I’m a Web <span>Developer</span></h1>
+                        <p>I`m a Web Developer who creates design and structure of a website.
+                            As a web Developer,I ensures that sites meets user expectations by smoothly and easily accessing. 
+                        </p>
+                        <div>
+                            <button class="btn btn-secondary">DOWNLOAD RESUME</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="about" class="about">
+            <div class="container flex items-center about-inner-wrap">
+                <div class="flex-1">
+                    <img class="about-me-img" src="./images/full body.webp" alt="">
+                </div>
+                <div class="flex-1 right">
+                    <h1>About <span>Me</span></h1>
+                    <h3>Hello! I’m Tejas Raut.</h3>
+                    <p>i`m Front-End web developer with more than 5 months of experience in that skill.My next goal is to become full stack web developer within a year and make project which are userfriendly web application. </p>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="services">
+            <div class="container">
+                <h1 class="section-heading"><span>Skills</span></h1>
+                <p></p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="./images/brush.svg" alt="">
+                        <h2>Phython</h2>
+                        
+                    </div>
+                    <div class="card">
+                        <img src="./images/code.svg" alt="">
+                        <h2>Java</h2>
+                        
+                    </div>
+                    <div class="card">
+                        <img src="./images/bag.svg" alt="">
+                        <h2>FrontEnd</h2>
+                        
+                    </div>
+                    <div class="card">
+                        <img src="./images/desktop.svg" alt="">
+                        <h2>C++</h2>
+                        
+                    </div>
+                    <div class="card">
+                        <img src="./images/media.svg" alt="">
+                        <h2>Javascript</h2>
+                        
+                    </div>
+                    <div class="card">
+                        <img src="./images/phone.svg" alt="">
+                        <h2>UI/UX</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="freelancer">
+            <h1>I Am Available For Freelancer.</h1>
+            <p>We provide high standar clean website for your business solutions</p>
+            <button class="btn btn-primary">Download CV</button>
+        </section> -->
+        <section class="reviews" id="project">
+            <div class="container">
+                <h1 class="section-heading"><span>Projects</span></h1>
+                <div class="slider">
+                    <div class="slide">
+                        <img src="./images/Weather_Forecoast_Graphics.jpg" alt="image is not found">
+                        <span>Wheather Forcast</span>
+                        <p>"This Wheather Forcast page shows current wheather to user.
+                            It fetches data from API on page to show user current wheather about place"</p>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/form-validation.png" alt="">
+                        <span>Form Validation</span>
+                        <p>"In Form validation,user puts his information on the form.
+                            when user submit data, it stores to local storage.
+                            if user wants to see the data, i create a new page which fetches data from localhost and display on page."</p>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/todo list.jpeg" alt="">
+                        <span>Todo List</span>
+                        <p>"In Todo List, user can store,delete,search daily todo works.And it also display all records below in list format."</p>
+                        
+                    </div>
+                    <div class="slide">
+                        <img src="./images/rock paper scissor.jpg" alt="">
+                        <span>Rock paper Scissor</span>
+                        <p>"This game familiar to all.In this project system will automatically generate a random choice like rock or paper or Scissor then user put his choice from 3 of that and checks condition gives result to user as Win or Lose or Same choice.  "</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="container">
+                <h1 class="section-heading">Contact <span>Me</span></h1>
+                <p></p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="./images/phone-2.svg" alt="">
+                        <h1>Call Me</h1>
+                        <h6>+91 8999896631</h6>
+                    </div>
+                    <div class="card">
+                        
+                    </div>
+
+                    <div class="card">
+                        <img src="./images/msg.svg" alt="">
+                        <h1>Email Me At</h1>
+                        <h6>tejasraut2731@gmail.com</h6>
+                    </div>
+                </div>
+
+                <form action="" class="form">
+                    <div class="input-wrap">
+                        <input type="text" placeholder="Your Name *">
+                        <input type="email" placeholder="Your Email *">
+                    </div>
+                    <div class="input-wrap-2">
+                        <input type="text" placeholder="Your Subject...">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message..."></textarea>
+                    </div>
+                    <div class="btn-wrapper">
+                        <button class="btn btn-primary">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <p class="fonts">Be</p><img class="footer-logo" src="./images/logo-2.svg" alt="">
+            <div class="footer-socials">
+            </div>
+            <div class="copyright">
+                Copyright 2024 © Web Developer
+            </div>
+        </footer>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
